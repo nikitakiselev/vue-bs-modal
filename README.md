@@ -1,2 +1,1 @@
-# vue-bs-modal
-Twitter Bootstrap 3 Modal component for Vuejs 2
+# Twitter Bootstrap 3 Modal Component for Vuejs 2
