@@ -1,0 +1,22 @@
+{
+  "name": "vue-bs-modal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --progress --hide-modules",
+    "watch": "webpack --watch --progress --hide-modules",
+    "hot": "webpack-dev-server --inline --hot",
+    "production": "webpack --progress --hide-modules"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "laravel-mix": "^0.8.7"
+  },
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "vue": "^2.1.10"
+  }
+}

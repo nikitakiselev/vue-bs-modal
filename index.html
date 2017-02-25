@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="dist/app.css">
+</head>
+<body>
+
+    <div id="app">
+        <div class="container">
+            <button class="btn btn-primary"
+                    @click="modalActive = ! modalActive"
+            >
+                Show Modal
+            </button>
+
+            <modal title="Modal title"
+                   :show="modalActive"
+                   @close="modalActive = false"
+                   size="modal-sm"
+            >
+                Modal content
+            </modal>
+        </div>
+    </div>
+
+    <script src="dist/app.js"></script>
+</body>
+</html>
